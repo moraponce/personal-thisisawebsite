@@ -18,10 +18,11 @@ function createNewTheme() {
                 fontSize: '1.8rem',
             },
             body1: {
-                fontSize: '1rem'
+                fontSize: '1.4rem'
             },
             body2: {
-                fontSize: '1rem'
+                fontSize: '1rem',
+            
             },
             details: {
                 fontSize: '0.9rem',
