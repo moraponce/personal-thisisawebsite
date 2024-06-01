@@ -2,7 +2,6 @@ import { useTheme } from "@mui/material/styles";
 import { useState } from "react";
 import "./main.css";
 import { Typography, Container, Box } from "@mui/material";
-import Iframe from 'react-iframe'
 import dogs from '../assets/img/dogs.jpeg'
 import candle from '../assets/img/candle.png'
 import ilMondo from '../assets/img/ilMondo.jpg'
@@ -14,7 +13,6 @@ import dagger from '../assets/img/dagger.png'
 import madres from '../assets/img/madres.png'
 import pearl from '../assets/img/pearl.png'
 import phone from '../assets/img/phone.png'
-import paperBoat from '../assets/img/paperBoat.png'
 
 
 
@@ -28,7 +26,7 @@ export default function HomePage(){
         <>
         <Container 
         component={'main'} 
-        maxWidth="false"
+        maxWidth={false}
         sx={{
             display: 'flex',
             flexDirection: 'column',
