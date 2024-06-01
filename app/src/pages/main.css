@@ -1,0 +1,76 @@
+.dogs{
+    width: 250px;
+}
+.candle{
+    width: 400px;
+}
+.tarotCard{
+    width: 200px;
+}
+
+/* .css-1dipvyg-MuiContainer-root , .gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+} */
+/* 
+.gridContainer div:nth-child(0) { 
+    grid-area: 2 / 3 / span 1 / span 1;
+}
+.gridContainer div:nth-child(1) { grid-area: 1 / 1 / span 2 / span 2;}
+.gridContainer div:nth-child(2) { grid-area: 1 / 3 / span 1 / span 1;} */
+
+.writingContainer{
+    display: flex;
+}
+
+.writingContainer div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.amuletSection{
+    flex-direction: row-reverse;
+}
+.amuletSection h2{
+    text-align: left;
+
+}
+.amuletsCarousel img{
+    width: 95%;
+}
+.amuletsCarousel img, .amuletsCarousel p{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+    html{
+        width: 100vw;
+    }
+    .dogs, .candle, .tarotCard{
+        max-width: 30%;
+        height: auto;
+    }
+    .writingContainer .bigPaperWriting p{
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+    .amuletSection{
+        flex-direction: column;
+    }
+    .amuletSection div{
+        width: 100%;
+        margin: 0.3rem 0;
+        text-align: center;
+    }
+    .amuletSection h2{
+        font-size: 2rem;
+        padding: 0.5rem 0;
+        font-weight: bold;
+    }
+    .amuletSection h2, .amuletSection p{
+        text-align: center;
+        margin: 0.2rem 0;
+    }
+
+}
