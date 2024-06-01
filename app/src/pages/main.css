@@ -27,5 +27,12 @@
 .writingContainer div:nth-child(2){
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+}
+
+.amuletsCarousel img{
+    width: 95%;
+}
+.amuletsCarousel img, .amuletsCarousel p{
+    cursor: pointer;
 }

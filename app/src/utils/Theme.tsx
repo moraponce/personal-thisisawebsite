@@ -6,7 +6,8 @@ function createNewTheme() {
         palette: {
             primary: {
                 main: '#F5F5F5',
-                contrast: '#0045CB'
+                dark: '#FEFFF4',
+                contrast: '#0045CB', 
             },
         },
         typography: {
