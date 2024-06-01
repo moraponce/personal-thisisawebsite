@@ -35,7 +35,33 @@ export default function HomePage(){
             backgroundColor: theme.palette.primary.main,
 
         }}>
-            <Container 
+            <WelcomeSection />
+            <WritingSection />
+            <AmuletSection />
+        </Container>
+        <Container 
+        component='footer'
+        maxWidth={false}
+        sx={{
+            display: 'flex',
+            justifyContent: 'flex-end',
+            width: '100%',
+            backgroundColor: theme.palette.primary.main,
+            padding: '1rem',
+            
+        }}>
+            <Typography variant='body2'>made with love by mora ponce</Typography>
+        </Container>
+
+        </>
+    )
+}
+
+export function WelcomeSection(){
+    const theme = useTheme()
+
+    return(
+        <Container 
                 component={'div'} 
                 maxWidth="false"
                 sx={{
@@ -77,23 +103,14 @@ export default function HomePage(){
                 >
                     it is a promise I made to myself - it doesn’t <i>have</i> to mean anything
                 </Typography>
-
-
-
             </Container>
-
-            <WritingSection />
-           <AmuletSection />
-        </Container>
-
-        </>
     )
 }
 
 export function WritingSection(){
     const theme = useTheme()
     const bigPaperWriting = [
-        'well. I seem to be here once again. I suppose I made a promise to myself - it doesn’t have to mean anything.', 'Recordé sus palabras: la traducción significa una barrera que nunca se puede cruzar. Hablaba de libros, pero también de nosotros; apenas hablábamos el lenguaje del otro y el punto medio nos quedaba corto. Aún así, intentamos, nos preguntamos cosas respondidas con palabras torpes y suavidad. Y entonces, sin quererlo, pasó; de alguna manera, sentí que através de él me habló dios. Me dijo ‘don’t worry, baby, you’re gonna be okay’.', 'It doesn’t have to mean anything and therefore it does.', 'Fue ahí, en ese mismo medio, que me consagré.'
+        'well. I find myself here once again. I suppose I made a promise to myself - it doesn’t have to mean anything.', 'Recordé sus palabras: la traducción implica una barrera que nunca se va a poder cruzar - entrás sabiendo que hay ideas que van a quedar perdidas en el medio. Hablaba de libros, pero también de nosotros; apenas hablábamos el lenguaje del otro y el punto medio nos quedaba corto. Aún así, intentamos, nos preguntamos cosas para responderlas con palabras torpes y suavidad. Y entonces, casi desapercibido, pasó. Para mí, de alguna manera, fue como si através de él me hubiese hablado dios, dijo: ‘don’t worry, baby, you’re gonna be okay’.', 'It doesn’t have to mean anything and therefore it does.', 'Fue ahí, en ese mismo medio, que volví a nacer.'
     ]
 
     const smallPaperWriting =["en invierno siempre me enfermo por no secarme el pelo. Dejo que el viento lo acaricie, me cuente un cuento; la ternura es un ejercicio que no se lleva el tiempo.", "La otra noche le prendí una vela a mis recuerdos, tarareé una melodía para adentro. Lo efectivo es un cisne de origami que se deshizo en la tormenta, pero recuerdo que alguna vez fuimos suaves" ]
