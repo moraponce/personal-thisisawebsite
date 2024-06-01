@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "npm run build:external && npm run build:app",
+    "build:external": "your-external-build-command",
+    "build:app": "cd app && vite build"
+  },
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
