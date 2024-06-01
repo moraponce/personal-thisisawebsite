@@ -117,6 +117,7 @@ export function WritingSection(){
                 }}
             >
                 <Container component={'div'}
+                    className='bigPaperWriting'
                     sx={{
                         backgroundImage:`url(${bigPaper})`,
                         width:' 60%',
@@ -219,7 +220,6 @@ export function AmuletSection(){
                     maxWidth: '100vw',
                     margin: '1rem 0',
                     display: 'flex',
-                    flexDirection: 'row-reverse'
                 }}
             >
                 
@@ -243,7 +243,6 @@ export function AmuletSection(){
                             margin: 0,
                             backgroundColor: theme.palette.primary.dark,
                             border: 'solid 3px black',
-                            textAlign: 'left',
                             padding: '0 0.8rem'
                         }}
                     >

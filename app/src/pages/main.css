@@ -29,10 +29,48 @@
     flex-direction: column;
     align-items: flex-end;
 }
+.amuletSection{
+    flex-direction: row-reverse;
+}
+.amuletSection h2{
+    text-align: left;
 
+}
 .amuletsCarousel img{
     width: 95%;
 }
 .amuletsCarousel img, .amuletsCarousel p{
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+    html{
+        width: 100vw;
+    }
+    .dogs, .candle, .tarotCard{
+        max-width: 30%;
+        height: auto;
+    }
+    .writingContainer .bigPaperWriting p{
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+    .amuletSection{
+        flex-direction: column;
+    }
+    .amuletSection div{
+        width: 100%;
+        margin: 0.3rem 0;
+        text-align: center;
+    }
+    .amuletSection h2{
+        font-size: 2rem;
+        padding: 0.5rem 0;
+        font-weight: bold;
+    }
+    .amuletSection h2, .amuletSection p{
+        text-align: center;
+        margin: 0.2rem 0;
+    }
+
 }
