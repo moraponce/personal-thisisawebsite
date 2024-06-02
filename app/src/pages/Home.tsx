@@ -221,6 +221,10 @@ export function AmuletSection(){
         const updatedList = [...amuletList];
         updatedList[index].show = !updatedList[index].show;
         setAmuletList(updatedList);
+        window.dataLayer.push({
+            'event': 'amulet_click',
+            'amuletText': amuletList[index].text,
+        })
     }
 
     return(
