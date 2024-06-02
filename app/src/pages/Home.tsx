@@ -292,6 +292,7 @@ export function AmuletSection(){
                                         <img src={amulet.imgSrc} alt=""/>
                                     : 
                                         <Typography 
+                                            className="amuletText"
                                             sx={{
                                                 textAlign: 'center',
                                                 width: '70%',
