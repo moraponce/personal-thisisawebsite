@@ -217,14 +217,16 @@ export function AmuletSection(){
       ]);
 
 
-    function handleAmuletClick(index){ 
+    function handleAmuletClick(index: number){ 
+        if(amuletList[index].show == true){
+            window.dataLayer.push({
+                'event': 'amulet_click',
+                'amuletText': amuletList[index].text,
+            })
+        }
         const updatedList = [...amuletList];
         updatedList[index].show = !updatedList[index].show;
         setAmuletList(updatedList);
-        window.dataLayer.push({
-            'event': 'amulet_click',
-            'amuletText': amuletList[index].text,
-        })
     }
 
     return(
