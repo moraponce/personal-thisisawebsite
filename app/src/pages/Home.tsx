@@ -110,8 +110,10 @@ export function WelcomeSection(){
 export function WritingSection(){
     const theme = useTheme()
     const bigPaperWriting = [
-        'I was good once and a man loved me for it. He cradled my kindness until it made him mad. I swallowed his resentment and turned hard and in his arms I shattered like glass.  I didn’t have a home then and I don’t have one now but I still like to play pretend. I put my hands out and let myself want like a child.','A new man thinks that I’m bad. He holds me until I turn soft and then smiles because he thinks he’s found a game he can wager on. Something he’ll try to bend until it breaks. I’m still learning to say no.', 'I have a new life now. I eat bread because I want to. I am a kind girl and I’m not always nice. I get so lonely and so bored and my desire is not yet my own but I am trying.'
+        'I was good once and a man loved me for it. He cradled my kindness until it made him mad. I swallowed his resentment and turned hard and in his arms I shattered like glass.  I didn’t have a home then and I don’t have one now but I still like to play pretend. I put my hands out and want like a child. I let myself make a mess. I always hated the idea of having sticky hands.',`A new man thinks that I’m bad. He holds me until I turn soft and then smiles because he thinks he’s found a game he can wager on.Something he’ll try to bend until it breaks. I’m still learning to say no. I want to leave before I'm told to because it hurts less that way but as I'm looking for my other sock somehow It still feels like I've lost. I listen and pray and still pay the price of betraying myself.`, 'I have a new life now. I eat bread because I want to. I am a kind girl and I’m not always nice. I get so lonely and so bored and my desire is not yet my own but I am trying.'
     ]
+
+
 
     const smallPaperWriting =["en invierno siempre me enfermo por no secarme el pelo. Dejo que el viento lo acaricie, me cuente un cuento; la ternura es un ejercicio que no se lleva el tiempo.", "La otra noche le prendí una vela a mis recuerdos, tarareé una melodía para adentro. Lo efectivo es un cisne de origami que se deshizo en la tormenta, pero recuerdo que alguna vez fuimos suaves" ]
     
